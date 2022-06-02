@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/mmawdsley
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: mmawdsley
       revision: eb8889883d1e91f58a42f0babc17a10fa3fa1b4a
       import: app/west.yml
   self:
