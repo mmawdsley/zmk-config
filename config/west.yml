@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: mmawdsley
-      url-base: https://github.com/mmawdsley
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: mmawdsley
-      revision: mouse-pim447
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
