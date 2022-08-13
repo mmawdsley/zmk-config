@@ -30,12 +30,12 @@
                 lower_layer {
 // ----------------------------------------------------------------------------------
 // |  ` |  1  |  2  |  3  |  4  |  5  |     |  6  |  7  |  8  |  9  |  0  |    DEL    |
-// |    |     |     |     | KPL | KPR | CAPS|  +  |  (  |  )  |  =  |     |           |
+// |    |     |     |     |  -  |  /  | CAPS|  +  |  (  |  )  |  =  |     |           |
 // |    |     |     | GUI | ALT | KP5 | KP0 |  >  |  -  |     |     |  \  | SHFT(RET) |
 //                       |     |     |       | ADJ |     |
                         bindings = <
    &kp GRAVE &kp N1 &kp N2   &kp N3       &kp N4       &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp DEL
-   &trans    &trans &trans   &kp KP_SLASH &kp KP_MINUS &kp CAPS      &kp PLUS  &kp LPAR  &kp RPAR  &kp EQUAL &trans    &trans
+   &trans    &trans &trans   &kp KP_MINUS &kp KP_SLASH &kp CAPS      &kp PLUS  &kp LPAR  &kp RPAR  &kp EQUAL &trans    &trans
    &trans    &trans &kp LGUI &kp LALT     &kp KP_N5    &kp KP_N0     &kp GT    &kp MINUS &trans    &trans    &kp BSLH  &mt RSHFT RET
                                  &trans      &trans       &trans        &mo 3       &trans
                         >;
